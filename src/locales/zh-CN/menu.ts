@@ -5,6 +5,8 @@ export default {
   'menu.admin': '管理页',
   'menu.chart': '图表',
   'menu.chart.bar': '柱状图',
+  'menu.documents': '起步文档',
+  'menu.documents.init-start': '起步',
   'menu.admin.sub-page': '二级管理页',
   'menu.login': '登录',
   'menu.register': '注册',

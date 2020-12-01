@@ -17,7 +17,7 @@
   {
     path: '/index',
     name: 'home',
-    component: './index'
+    component: './index',
   },
   {
     path: '/chart',
@@ -26,9 +26,20 @@
       {
         path: 'bar',
         name: 'bar',
-        component: './bar'
-      }
-    ]
+        component: './bar',
+      },
+    ],
+  },
+  {
+    path: '/documents',
+    name: 'documents',
+    routes: [
+      {
+        path: 'init-start',
+        name: 'init-start',
+        component: './documents/start',
+      },
+    ],
   },
   {
     path: '/admin',
@@ -36,7 +47,7 @@
     hideInMenu: true,
     icon: 'crown',
     access: 'canAdmin',
-    component: './Admin'
+    component: './Admin',
   },
   {
     component: './404',
